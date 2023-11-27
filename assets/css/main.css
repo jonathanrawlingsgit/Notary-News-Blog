@@ -10,7 +10,7 @@
     --hover-light-color: var(--light-color);
     --hover-dark-color: var(--primary-background-color);
     --gradient-color: linear-gradient(
-        115deg,#bbcdf4,#83a4eb);
+        115deg,#77adfa,#6990E3);
     --transparent-light-color: rgba(255,255,255,.05);
     --transparent-dark-color: rgba(0,0,0,.75);
     --font-family: 'Poppins', sans-serif;
@@ -86,6 +86,19 @@ body.light-theme{
     margin: 0 auto;
     padding: 0 1.5rem;
 }
+.container h2 {
+    font-size: 3.3rem;
+    margin-bottom: 1.8em;
+}
+
+#blog-text {
+    margin-bottom: 6em;
+    line-height: 2.6em;
+    font-size: 2rem;
+}
+#footer-desc {
+    font-size: 1.5rem;
+}
 
 .place-items-center{
     display: inline-flex;
@@ -124,7 +137,7 @@ body.light-theme{
 .logo{
     font-size: var(--font-size-md);
     color: var(--light-color);
-    font-family: 'Times New Roman', Times, serif;
+   
 }
 
 .menu{
