@@ -10,7 +10,7 @@
     --hover-light-color: var(--light-color);
     --hover-dark-color: var(--primary-background-color);
     --gradient-color: linear-gradient(
-        115deg,#77adfa,#6990E3);
+        115deg, #F25F5C, #77FACB, #F25F5C, #77FACB );
     --transparent-light-color: rgba(255,255,255,.05);
     --transparent-dark-color: rgba(0,0,0,.75);
     --font-family: 'Poppins', sans-serif;
@@ -136,7 +136,8 @@ body.light-theme{
 
 .logo{
     font-size: var(--font-size-md);
-    color: var(--light-color);
+    color: #77FACB;
+    
    
 }
 

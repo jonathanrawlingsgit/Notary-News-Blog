@@ -3,9 +3,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NewsFlash | Post</title>
+    <title>Jon The Notary | Notary Public</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.ico">
     <!-- Remix icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Swiper.js styles -->
@@ -15,36 +15,38 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
-        <nav class="navbar container" id="navbar">
+    <header class="header" id="header">
+
+        <nav class="navbar container">
             <a href="./index.html">
-                <h2 class="logo">NewsFlash</h2>
+                <h3 class="logo">Jon The Notary</h3>
             </a>
+
             <div class="menu" id="menu">
                 <ul class="list">
                     <li class="list-item">
                         <a href="#" class="list-link current">Home</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Categories</a>
+                        <a href="#services" class="list-link">Services</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Reviews</a>
+                        <a href="#" class="list-link">Testimonials</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">News</a>
+                        <a href="#" class="list-link">Blog</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Membership</a>
+                        <a href="./about.html" class="list-link">About</a>
                     </li>
-                    <li class="list-item">
+                    <!-- <li class="list-item">
                         <a href="#" class="list-link">Contact</a>
+                    </li> -->
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./calendar.html" class="list-link">Appointments</a>
                     </li>
                     <li class="list-item screen-lg-hidden">
-                        <a href="./signin.html" class="list-link">Sign in</a>
-                    </li>
-                    <li class="list-item screen-lg-hidden">
-                        <a href="./signup.html" class="list-link">Sign up</a>
+                        <a href="./contact.html" class="list-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -64,9 +66,9 @@
                     <i class="ri-close-line close-menu-icon"></i>
                 </div>
 
-                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
-                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
-                    <span>Sign up</span>
+                <a href="./calendar.html" class="list-link screen-sm-hidden">Appointments</a>
+                <a href="./calendar.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Contact</span>
                 </a>
             </div>
         </nav>
@@ -91,150 +93,43 @@
     <section class="blog-post section-header-offset">
         <div class="blog-post-container container">
             <div class="blog-post-data">
-                <h3 class="title blog-post-title">Is VR the future?</h3>
+                <h1 class="title blog-post-title">
+                    About Me</h1>
                 <div class="article-data">
-                    <span>Dec 6th 2021</span>
+                    <span>Nov 29th 2023</span>
                     <span class="article-data-spacer"></span>
-                    <span>4 Min read</span>
+                    <span>5 Min read</span>
                 </div>
-                <img src="./assets/images/featured/featured-1.jpg" alt="">
+                <img src="./assets/images/author.jpg" alt="Jon Rawlings About Me Picture">
             </div>
 
             <div class="container">
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente repellat consequatur culpa, repudiandae aut dolores iusto. Rem natus soluta, dolores, ad deleniti, aut dolorem corrupti quasi amet unde delectus hic?
-                </p>
-                
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
-                </p>
-
-                <blockquote class="quote">
-                    <p><span><i class="ri-double-quotes-l"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptates, laboriosam voluptatum quos non consequuntur nesciunt necessitatibus tempora quod inventore corporis rem nihil itaque, at provident minus aliquam veritatis. Labore?  <span><i class="ri-double-quotes-r"></i></span></p>
-                </blockquote>
+                <h2>
+                   Jon Rawlings - Notary Public</h2>
             
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
-                </p>
+               <p id="blog-text">Meet Jon The Notary, a dedicated notary with a profound passion for assisting individuals on their legal journeys. With a solid background in notarial services, I bring a unique blend of expertise and commitment to each document entrusted to my care.</p>
 
-                <div class="author d-grid">
-                    <div class="author-image-box">
-                        <img src="./assets/images/author.jpg" alt="" class="article-image">
-                    </div>
-                    <div class="author-about">
-                        <h3 class="author-name">John Doe</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quis repellat rerum, possimus cumque dolor repellendus eligendi atque explicabo exercitationem id.</p>
-                        <ul class="list social-media">
-                            <li class="list-item">
-                                <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
-                            </li>
-                            <li class="list-item">
-                                <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
-                            </li>
-                            <li class="list-item">
-                                <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                <p id="blog-text">In my professional journey, I've come to understand that being a notary is more than just wielding a stamp; it's about being an ally to individuals navigating the complexities of legal paperwork. Every signature tells a story, and my mission is to ensure that your legal processes are not only precise and professional but also transparent and stress-free.</p>
+                
+                <p id="blog-text">What sets my notary services apart is a commitment to excellence on three fronts: expertise, dedication, and accessibility. Backed by a solid foundation in notarial practices, I bring a wealth of knowledge to every document I handle. My dedication goes beyond the technicalities; it's about delivering top-notch service with a personal touch. I am here to address your questions, alleviate your concerns, and provide a supportive presence throughout your notarial experience.</p>
+                
+                <p id="blog-text">As your partner in paperwork, I am equipped to guide you through various legal processes, whether you're closing a critical business deal, finalizing a real estate transaction, or ensuring your documents meet stringent legal standards. At Jon The Notary Notary Services, it's not just about signatures; it's about transforming your documents into a seamless, empowering experience.</p>
+                
+                <p id="blog-text">I invite you to join me on this journey at Jon The Notary Services, where your legal needs meet compassionate expertise. Together, let's navigate the intricacies of your documents and turn them into a testament of precision and peace of mind.
+                
+                    I look forward to being a pivotal part of your notarial journey.
+                    </p>
+                <p id="blog-text">Best regards,
+                    Jon Rawlings</p>
+               
+            
+            
+               
+
+              
 
     <!-- Footer -->
-    <footer class="footer section">
-        <div class="footer-container container d-grid">
-            
-            <div class="company-data">
-                <a href="./index.html">
-                    <h2 class="logo">NewsFlash</h2>
-                </a>
-                <p class="company-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iure. Harum, animi dolores, nam, ad magni expedita.</p>
-                <ul class="list social-media">
-                    <li class="list-item">
-                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
-                    </li>
-                </ul>
-                <span class="copyright-notice">&copy;2021 NewsFlash. All rights reserved.</span>
-            </div>
-
-            <div>
-                <h6 class="title footer-title">Categories</h6>
-                <ul class="footer-list list">
-                    <li class="list-item">
-                        <a href="#" class="list-link">Travel</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Food</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Technology</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Health</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Nature</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Fitness</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div>
-                <h6 class="title footer-title">Useful links</h6>
-                <ul class="footer-list list">
-                    <li class="list-item">
-                        <a href="#" class="list-link">Home</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Elements</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Tags</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Authors</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Membership</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div>
-                <h6 class="title footer-title">Company</h6>
-                <ul class="footer-list list">
-                    <li class="list-item">
-                        <a href="#" class="list-link">Contact us</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">F.A.Q</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Careers</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Authors</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Memberships</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
+    
     <!-- Swiper.js -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <!-- Custom script -->
